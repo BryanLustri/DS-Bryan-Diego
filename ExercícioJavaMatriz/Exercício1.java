@@ -7,31 +7,21 @@
  *
  * @author CAMARGO
  */
-public class ExemploMatriz {
+public class Exercício1 {
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]){
-        // TODO code application logic here
-
-
-
-        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-
-        cars[0] = "Opel";
-
-        System.out.println(cars[0]);
-
-
-        int[] i = new int[4];
-
-
-
-
-
-
-
+    public static void main(String args[]) {
+        
+        
+        
+        int[] MeuNumero = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+        
+        for (int i= 0; i < MeuNumero.length; i++)
+        {
+        System.out.println(MeuNumero[i]);   
+        }    
 
 
     }
